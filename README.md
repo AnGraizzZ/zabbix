@@ -80,8 +80,13 @@ agz@debian:~/Desktop/zabbix$ sudo cat /var/log/zabbix/zabbix_agentd.log
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 ![alt text](img/image-2.png)
 
+
 4. Приложите в файл README.md текст использованных команд в GitHub
-Установка и настройка агента производилась своместно с установкой сервера zabbix, что видно из 2 пункта 1го задания
+```bash
+apt install zabbix-agent
+systemctl zabbix-agent 
+systemctl zabbix-agent 
+```
 ---
 ## Задание 3 со звёздочкой*
 Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
